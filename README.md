@@ -28,11 +28,10 @@
 - the decor designer and architecter can be sign in and logout
 - the customer can be signup
 - the customer can be sign in and logout
-- the decor designer and architecter can add photo or video from library or camera on his projects
+- the decor designer and architecter can add photo  from library on his projects
 - the decor designer and architecter can add his work place
 - the all decor designer and architecter found in home page on table view
 - the decor designer and architecter can add his information and  profile photo
-- the customer can write comment under decor designer or architecter project photo 
 - the customer can add a rating for the decor designer or architecter
 
 
