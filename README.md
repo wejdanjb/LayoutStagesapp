@@ -94,6 +94,10 @@ https://user-images.githubusercontent.com/92252951/150614196-adb29ef5-4154-4a0e-
 https://user-images.githubusercontent.com/92252951/150614283-0497a713-8e93-4120-9b00-fcc93a60145b.mov
 
 
+https://user-images.githubusercontent.com/92252951/150615626-195d995a-d0c6-463b-acb2-a36105463edb.mov
+
+
+
 # setting screen
 
 ![Image 18-06-1443 AH at 10 31 PM](https://user-images.githubusercontent.com/92252951/150614673-a2003a33-492a-4002-a01c-e90950159e84.jpg)
