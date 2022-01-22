@@ -11,9 +11,8 @@ import Firebase
 class EngprofileViewController: UIViewController {
     var db = Firestore.firestore()
     let userID = Auth.auth().currentUser?.uid
-    @IBOutlet weak var editProfile: UIButton! // edit photo
     
-    @IBOutlet weak var imgProfile: UIImageView! // image profile
+    @IBOutlet weak var imgProfile: UIImageView!
     
     @IBOutlet weak var labelNameProfile: UILabel!
     
@@ -38,9 +37,11 @@ class EngprofileViewController: UIViewController {
     
     @IBOutlet weak var text: UITextView!
     
+    @IBOutlet weak var editprofile: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        text.layer.cornerRadius = 20
+        text.layer.cornerRadius = 10
 
        DispatchQueue.global(qos: .userInitiated).async {
             DispatchQueue.main.async {
@@ -118,14 +119,35 @@ class EngprofileViewController: UIViewController {
                                 self.contactLabel.isHidden = true
                                 
                                
-                            
+                                
                             }
                         }
                     }
-            }
+                
+                              
+                          }
              }
         }
+        
     
+    
+    DispatchQueue.global(qos: .userInitiated).async {
+         DispatchQueue.main.async {
+             if  ((Auth.auth().currentUser?.email?.contains("admin")) != nil)   {
+                 self.labelNameProfile.isHidden = true
+                 self.labelEmailProofile.isHidden = true
+                 self.descriptionLabel.isHidden = true
+                 self.descriptionText.isHidden = true
+                 self.workPlace.isHidden = true
+                 self.workPlaceLabel.isHidden = true
+                 self.contactLabel.isHidden = true
+                 self.project.isHidden = true
+                 self.contact.isHidden = true
+                 self.contactLabel.isHidden = true
+                 
+             }
+         }
+    }
     }
     @IBAction func projects(_ sender: Any) {
         
@@ -165,9 +187,5 @@ class EngprofileViewController: UIViewController {
         return true
       }
 
-
     }
-
-
-
 

@@ -35,6 +35,8 @@
 		3E52C2552781C8DE0020EBA2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52C2542781C8DE0020EBA2 /* LoginViewController.swift */; };
 		3E52C2572781CDB30020EBA2 /* EngSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52C2562781CDB30020EBA2 /* EngSignupViewController.swift */; };
 		3E52C2592781CDC90020EBA2 /* CustomerSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52C2582781CDC90020EBA2 /* CustomerSignupViewController.swift */; };
+		3E7D40E1279B27B2001C012D /* Loadanimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D40E0279B27B2001C012D /* Loadanimation.swift */; };
+		3E7D40E3279B2826001C012D /* Load-json.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E7D40E2279B2826001C012D /* Load-json.json */; };
 		3E90386B27983A6300ACB2BE /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E90386A27983A6300ACB2BE /* CollectionViewCell2.swift */; };
 		3E90386F27983AA000ACB2BE /* collectionViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E90386E27983AA000ACB2BE /* collectionViewController2.swift */; };
 		3E98DCF727998CFC0083E77A /* AboutasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E98DCF627998CFB0083E77A /* AboutasView.swift */; };
@@ -101,6 +103,8 @@
 		3E52C2542781C8DE0020EBA2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3E52C2562781CDB30020EBA2 /* EngSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngSignupViewController.swift; sourceTree = "<group>"; };
 		3E52C2582781CDC90020EBA2 /* CustomerSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSignupViewController.swift; sourceTree = "<group>"; };
+		3E7D40E0279B27B2001C012D /* Loadanimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadanimation.swift; sourceTree = "<group>"; };
+		3E7D40E2279B2826001C012D /* Load-json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Load-json.json"; sourceTree = "<group>"; };
 		3E90386A27983A6300ACB2BE /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
 		3E90386E27983AA000ACB2BE /* collectionViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewController2.swift; sourceTree = "<group>"; };
 		3E98DCF627998CFB0083E77A /* AboutasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutasView.swift; sourceTree = "<group>"; };
@@ -245,6 +249,10 @@
 		3EE68B07279391340015B108 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3EBD22052785AE7B0074CE34 /* EngModel.swift */,
+				3E4FC08927970F87000D175E /* PostsModel.swift */,
+				3EBD22072785AE8C0074CE34 /* CustomerModel.swift */,
+				3E7D40E2279B2826001C012D /* Load-json.json */,
 				3E3203D3279360A30005C3AD /* 17304-star.json */,
 				3E3203CD279359740005C3AD /* 2080-rating.json */,
 				3E216992278F441200166090 /* 24141-unlock-login.json */,
@@ -256,9 +264,7 @@
 				3E3203D127935B520005C3AD /* StarAnimation.swift */,
 				3EE68B03279390BC0015B108 /* AppIntro1.swift */,
 				3E216994278F444A00166090 /* restSuccess.swift */,
-				3EBD22052785AE7B0074CE34 /* EngModel.swift */,
-				3E4FC08927970F87000D175E /* PostsModel.swift */,
-				3EBD22072785AE8C0074CE34 /* CustomerModel.swift */,
+				3E7D40E0279B27B2001C012D /* Loadanimation.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -378,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E52C21E27818DBF0020EBA2 /* LaunchScreen.storyboard in Resources */,
+				3E7D40E3279B2826001C012D /* Load-json.json in Resources */,
 				3EBD220A278707FB0074CE34 /* 39434-designing-icon.json in Resources */,
 				3E52C249278194810020EBA2 /* GoogleService-Info.plist in Resources */,
 				3E3203D4279360A30005C3AD /* 17304-star.json in Resources */,
@@ -420,6 +427,7 @@
 				3E4FC08E27971BEF000D175E /* CollectionViewCell.swift in Sources */,
 				3E52C20F27818DBB0020EBA2 /* AppDelegate.swift in Sources */,
 				3EBD22062785AE7B0074CE34 /* EngModel.swift in Sources */,
+				3E7D40E1279B27B2001C012D /* Loadanimation.swift in Sources */,
 				3EA71634278332F0009F0470 /* AllEngCell.swift in Sources */,
 				3EBD220F27874CA90074CE34 /* AnimationScreen.swift in Sources */,
 				3EE68B06279390D00015B108 /* AppIntro2.swift in Sources */,

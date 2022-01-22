@@ -25,11 +25,6 @@ class CustomerSignupViewController: UIViewController {
     
     @IBOutlet weak var SignupPassword: UITextField!
     
-    @IBOutlet weak var passConfirm: UITextField!
-    
-    @IBOutlet weak var check1: UIButton!
-    
-    @IBOutlet weak var check2: UIButton!
     
     let checkLabel = UILabel()
     
@@ -109,9 +104,12 @@ class CustomerSignupViewController: UIViewController {
                     
                     self.db.collection("Users").addDocument(data: data) { error in
                         if  error == nil {
-                            let tabView = self.storyboard?.instantiateViewController(withIdentifier: "Home") as? UITabBarController
-                            tabView!.modalPresentationStyle = .fullScreen
-                            self.present(tabView!, animated: true, completion: nil)
+//                            let tabView = self.storyboard?.instantiateViewController(withIdentifier: "Home") as? UITabBarController
+//                            tabView!.modalPresentationStyle = .fullScreen
+//                            self.present(tabView!, animated: true, completion: nil)
+                        let second = self.storyboard?.instantiateViewController(withIdentifier: "Load")
+                        second!.modalPresentationStyle = .fullScreen
+                        self.present(second!, animated: true, completion: nil)
                             print("success")
                             
                           

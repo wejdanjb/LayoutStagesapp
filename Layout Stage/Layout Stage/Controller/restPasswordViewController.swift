@@ -35,8 +35,7 @@ class restPasswordViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
             
     }
-    
- 
+
 }
     
     @IBAction func close(_ sender: Any) {

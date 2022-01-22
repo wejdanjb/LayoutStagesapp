@@ -29,8 +29,11 @@ class LoginViewController: UIViewController {
     @IBAction func login(_ sender: Any) {
         Auth.auth().signIn(withEmail: loginemail.text! , password: loginPassword.text! ) { authResult, error in
             if error == nil {
-                let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! UITabBarController
-                self.present(vc, animated: true, completion: nil)
+//                let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! UITabBarController
+//                self.present(vc, animated: true, completion: nil)
+                let second = self.storyboard?.instantiateViewController(withIdentifier: "Load")
+                second!.modalPresentationStyle = .fullScreen
+                self.present(second!, animated: true, completion: nil)
             }else{
                 let alert = UIAlertController(title: "Please try again", message: "The Email or password is not valid", preferredStyle: .alert)
                 let action = UIAlertAction(title: "Ok", style: .default, handler: nil)

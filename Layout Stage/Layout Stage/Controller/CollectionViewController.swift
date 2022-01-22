@@ -25,8 +25,6 @@ class CollectionViewController: UIViewController {
         
     }
     
-    
-    
     @IBAction func next(_ sender: Any) {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! UITabBarController
         self.present(vc, animated: true, completion: nil)
@@ -61,9 +59,6 @@ extension CollectionViewController : UICollectionViewDataSource, UICollectionVie
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width:self.view.frame.width * 0.45, height: self.view.frame.height * 0.45)
     }
-    
-    
-    
     
     func getDataForEng(id:String) {
         

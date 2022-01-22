@@ -22,11 +22,11 @@ class AllDesigner_Eng: UIViewController,UITableViewDataSource,UITableViewDelegat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
         searchBar.delegate = self
         getUserFromfirestore()
         self.engTable.reloadData()
+        searchBar.layer.cornerRadius = 30
         print(Auth.auth().currentUser?.uid)
     }
     
@@ -65,6 +65,8 @@ extension AllDesigner_Eng {
         
         cell.labelName.text = filtred[indexPath.row].name // اراي السيرش بار
         cell.engImg.image = UIImage(data:filtred[indexPath.row].image)!
+        cell.layer.cornerRadius = 33
+        cell.engImg.layer.cornerRadius = 8
         
         return cell
     }
@@ -132,7 +134,9 @@ extension AllDesigner_Eng : UISearchBarDelegate{ //
     override var prefersStatusBarHidden: Bool {
         return true
     }
-}
+
+    }
+
 
 
 

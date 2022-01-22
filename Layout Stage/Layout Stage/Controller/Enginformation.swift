@@ -44,7 +44,8 @@ class Enginformation: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        engLabelDesc.layer.cornerRadius = 20
+        engimage.layer.cornerRadius = 10
+        engLabelDesc.layer.cornerRadius = 25
         addPanGusture(view: star)
         
         
