@@ -87,11 +87,6 @@ https://user-images.githubusercontent.com/92252951/150614307-5a87c3b9-d2a8-485e-
 
 
 
-Uploading Screen Recording 1443-06-18 at 10.55.11 PM.mov…
-
-# Loading Screen
-
-
 https://user-images.githubusercontent.com/92252951/150614196-adb29ef5-4154-4a0e-8859-35c187c31943.mov
 ![Screenshot 1443-06-18 at 11 08 43 PM](https://user-images.githubusercontent.com/92252951/150614225-e58d68d4-bfc6-4812-ab13-937b08681788.png)
 ![Screenshot 1443-06-18 at 11 08 56 PM](https://user-images.githubusercontent.com/92252951/150614234-a6d677eb-109b-457c-9dea-c4e927b07419.png)
