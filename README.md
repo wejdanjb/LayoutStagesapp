@@ -21,7 +21,7 @@ Reaching architects or interior designers easily from one place that brings them
 The solution is to have an integrated application that includes all designers and architects thir are displays all their works
 To facilitate the life of the user from the merchant and the owner of the house, as well as to facilitate the work of engineers and interior designers
 
-# المتطلبات 
+# functional requirements:
 
 - the decor designer and architecter can be signup
 - the decor designer and architecter can be sign in and logout
